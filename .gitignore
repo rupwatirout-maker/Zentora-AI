@@ -1,0 +1,74 @@
+# ==============================================================================
+# Zentora AI — Git Ignore Rules
+# ==============================================================================
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / Backend
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+eggs/
+.eggs/
+parts/
+var/
+sdist/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Databases & Vector Stores
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+vector_db/
+BACKEND/chroma_db/
+BACKEND/vector_db/
+BACKEND/uploads/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# OS Generated
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary Archives & Root Audit Dumps
+*.zip
+*.tar.gz
+*.bak
+*.tmp
+BACKUPS/
+BACKEND/BACKUPS/
+*-backup-*/
+*SAFETY-*/
+*.txt
+!requirements.txt
+TASKS.md
